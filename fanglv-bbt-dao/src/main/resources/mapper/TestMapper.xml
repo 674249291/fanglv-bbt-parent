@@ -1,0 +1,12 @@
+<?mapper version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fanglv.bbt.mapper.TestMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.fanglv.bbt.entity.Test">
+		<id column="id" property="id" />
+		<result column="nametest" property="nametest" />
+		<result column="desctest" property="desctest" />
+	</resultMap>
+
+</mapper>

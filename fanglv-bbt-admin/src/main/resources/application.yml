@@ -1,0 +1,25 @@
+server:
+  port: 8380
+logging:
+  config: classpath:log4j2-dev.xml
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: fanglv-bbt-admin
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 2
+      min-idle: 2
+      max-active: 20
+
+mybatis-plus:
+  type-aliases-package: com.fanglv.bbt.entity
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  global-config:
+    id-type: 0
+    db-column-underline: true
+

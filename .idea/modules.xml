@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-admin/fanglv-bbt-admin.iml" filepath="$PROJECT_DIR$/fanglv-bbt-admin/fanglv-bbt-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-client/fanglv-bbt-client.iml" filepath="$PROJECT_DIR$/fanglv-bbt-client/fanglv-bbt-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-common/fanglv-bbt-common.iml" filepath="$PROJECT_DIR$/fanglv-bbt-common/fanglv-bbt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-dao/fanglv-bbt-dao.iml" filepath="$PROJECT_DIR$/fanglv-bbt-dao/fanglv-bbt-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-entity/fanglv-bbt-entity.iml" filepath="$PROJECT_DIR$/fanglv-bbt-entity/fanglv-bbt-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanglv-bbt-parent.iml" filepath="$PROJECT_DIR$/fanglv-bbt-parent.iml" />
+    </modules>
+  </component>
+</project>
